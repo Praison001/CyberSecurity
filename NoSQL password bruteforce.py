@@ -1,3 +1,4 @@
+#This is a password bruteforce script for the THM room: https://tryhackme.com/room/nosqlinjectiontutorial
 import requests
 import string   
 
