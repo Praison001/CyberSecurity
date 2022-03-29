@@ -1,0 +1,1 @@
+Modify the rootdir variable in the python script to the name of the root directory in where you have kept all the book contents before executing it!
