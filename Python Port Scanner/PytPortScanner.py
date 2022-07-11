@@ -1,3 +1,4 @@
+#Usage: python3 PytPortScanner.py <Target IP>
 import sys
 import socket
 
